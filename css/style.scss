@@ -1,0 +1,71 @@
+@import "color";
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'khula';
+  background-color: ghostwhite;
+}
+.dark-gray{
+  background-color: $dark-gray;
+}
+.gray-medium{
+  background-color: $gray-medium;
+}
+.gray-green{
+  background-color: darkslategray;
+}
+.gray-soft{
+  background-color: $gray-soft;
+}
+.gold{
+  background-color: $gold;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.flex-content{
+  vertical-align: middle;
+  width: 280px;
+}
+.head{
+  height: 80px;
+}
+.button-container{
+  height: 200px;
+  padding: 9% 7% 40% 7%;
+  text-align: center;
+}
+.screen-case{
+  height: 42px;
+  background-color: darkgray;
+  padding: 3%;
+  border-radius: 5px;
+}
+.screen{
+  width: 100%;
+  height: 40px;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: right;
+  color: white;
+}
+hr{
+  background-color: white;
+  height: 2px;
+}
+input[type='button'], button{
+  border-radius: 50%;
+  outline: none;
+  border-style: none;
+  width: 19%;
+  height: 21%;
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+}
