@@ -1,10 +1,15 @@
 @import "color";
-html, body{
-  height: 100%;
+*{
   margin: 0;
   padding: 0;
-  font-family: 'khula';
-  background-color: ghostwhite;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  body{
+    font-family: 'khula';
+    background-color: ghostwhite;
+  }
 }
 .dark-gray{
   background-color: $dark-gray;
@@ -21,51 +26,51 @@ html, body{
 .gold{
   background-color: $gold;
 }
+.c-white{
+  color: white;
+}
 
 .flex-container{
   display: flex;
-  align-items: center;
+}
+.jus-center{
   justify-content: center;
-  flex-direction: column;
-  height: 100%;
 }
-.flex-content{
-  vertical-align: middle;
-  width: 280px;
+.m-20-0{
+  margin: 2rem 0;
 }
-.head{
-  height: 80px;
+.main-container{
+  height: 100vh;
+  align-items: center;
 }
-.button-container{
-  height: 200px;
-  padding: 9% 7% 40% 7%;
-  text-align: center;
-}
-.screen-case{
-  height: 42px;
-  background-color: darkgray;
-  padding: 3%;
-  border-radius: 5px;
+.form-calculator{
+  height: 75vh;
+  align-items: flex-end;
+  width: 90%;
+  max-width: 30rem;
+  border-radius: 3rem;
+  .calculator-content{
+    width: 100%;
+    height: 80%;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    flex-direction: column;
+  }
+  input[type=button], button{
+    border-radius: 50%;
+    outline: none;
+    font-size: 3rem;
+    width: 20%;
+    height: 4.5rem;
+  }
+  hr{
+    border: 2px solid white;
+    width: 85%;
+    margin: 0 auto;
+  }
 }
 .screen{
-  width: 100%;
-  height: 40px;
-  font-weight: 800;
-  font-size: 30px;
-  text-align: right;
-  color: white;
-}
-hr{
-  background-color: white;
-  height: 2px;
-}
-input[type='button'], button{
-  border-radius: 50%;
-  outline: none;
-  border-style: none;
-  width: 19%;
-  height: 21%;
-  color: white;
-  font-weight: 800;
-  font-size: 1rem;
+  height: 4rem;
+  width: 85%;
+  font-size: 2.5rem;
 }

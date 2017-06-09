@@ -1,4 +1,7 @@
-html, body { height: 100%; margin: 0; padding: 0; font-family: 'khula'; background-color: ghostwhite; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 10px; }
+html body { font-family: 'khula'; background-color: ghostwhite; }
 
 .dark-gray { background-color: #3b444b; }
 
@@ -10,20 +13,21 @@ html, body { height: 100%; margin: 0; padding: 0; font-family: 'khula'; backgrou
 
 .gold { background-color: #f0c50f; }
 
-.flex-container { display: flex; align-items: center; justify-content: center; flex-direction: column; height: 100%; }
+.c-white { color: white; }
 
-.flex-content { vertical-align: middle; width: 280px; }
+.flex-container { display: flex; }
 
-.head { height: 80px; }
+.jus-center { justify-content: center; }
 
-.button-container { height: 200px; padding: 9% 7% 40% 7%; text-align: center; }
+.m-20-0 { margin: 2rem 0; }
 
-.screen-case { height: 42px; background-color: darkgray; padding: 3%; border-radius: 5px; }
+.main-container { height: 100vh; align-items: center; }
 
-.screen { width: 100%; height: 40px; font-weight: 800; font-size: 30px; text-align: right; color: white; }
+.form-calculator { height: 75vh; align-items: flex-end; width: 90%; max-width: 30rem; border-radius: 3rem; }
+.form-calculator .calculator-content { width: 100%; height: 80%; border-bottom-left-radius: 3rem; border-bottom-right-radius: 3rem; flex-direction: column; }
+.form-calculator input[type=button], .form-calculator button { border-radius: 50%; outline: none; font-size: 3rem; width: 20%; height: 4.5rem; }
+.form-calculator hr { border: 2px solid white; width: 85%; margin: 0 auto; }
 
-hr { background-color: white; height: 2px; }
-
-input[type='button'], button { border-radius: 50%; outline: none; border-style: none; width: 19%; height: 21%; color: white; font-weight: 800; font-size: 1rem; }
+.screen { height: 4rem; width: 85%; font-size: 2.5rem; }
 
 /*# sourceMappingURL=style.css.map */

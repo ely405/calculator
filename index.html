@@ -8,42 +8,42 @@
   <title>Calculator</title>
 </head>
 <body>
-  <form class="flex-container">
-    <div class="flex-content">
-      <div class="head gold">
-        <div class="screen-case">
-          <input type="text" readonly id="input-number" class="screen gray-medium">
+  <section class="main-container flex-container jus-center">
+    <form class="form-calculator flex-container  gold">
+      <div class="calculator-content flex-container jus-center gray-soft">
+        <div class="flex-container jus-center m-20-0">
+            <input type="text" readonly id="input-number" class="screen gray-medium c-white">
         </div>
         <hr>
+        <div class="m-20-0">
+          <div class="flex-container jus-center">
+            <input type="button" value="1" class="dark-gray c-white">
+            <input type="button" value="2" class="dark-gray c-white">
+            <input type="button" value="3" class="dark-gray c-white">
+            <input type="button" value="*" class="dark-gray c-white">
+          </div>
+          <div class="flex-container jus-center">
+            <input type="button" value="4" class="dark-gray c-white">
+            <input type="button" value="5" class="dark-gray c-white">
+            <input type="button" value="6" class="dark-gray c-white">
+            <input type="button" value="-" class="dark-gray c-white">
+          </div>
+          <div class="flex-container jus-center">
+            <input type="button" value="7" class="dark-gray c-white">
+            <input type="button" value="8" class="dark-gray c-white">
+            <input type="button" value="9" class="dark-gray c-white">
+            <input type="button" value="+" class="dark-gray c-white">
+          </div>
+          <div class="flex-container jus-center">
+            <input type="button" value="C" class="dark-gray c-white">
+            <button type="button" class="dark-gray c-white">=</button>
+            <input type="button" value="0" class="dark-gray c-white">
+            <input type="button" value="/" class="dark-gray c-white">
+          </div>
+        </div>
       </div>
-      <div class="button-container gray-soft">
-        <div class="button-row">
-          <input type="button" value="1">
-          <input type="button" value="2">
-          <input type="button" value="3">
-          <input type="button" value="*">
-        </div>
-        <div class="button-row">
-          <input type="button" value="4">
-          <input type="button" value="5">
-          <input type="button" value="6">
-          <input type="button" value="-">
-        </div>
-        <div class="button-row">
-          <input type="button" value="7">
-          <input type="button" value="8">
-          <input type="button" value="9">
-          <input type="button" value="+">
-        </div>
-        <div class="button-row">
-          <input type="button" value="C">
-          <button type="button">=</button>
-          <input type="button" value="0">
-          <input type="button" value="/">
-        </div>
-      </div>
-    </div>
-  </form>
+    </form>
+  </section>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/app.js"></script>
 </body>
